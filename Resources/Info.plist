@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleIdentifier</key><string>au.com.instantai.transcribe-and-send</string>
+    <key>CFBundleName</key><string>T&amp;S</string>
+    <key>CFBundleDisplayName</key><string>T&amp;S</string>
+    <key>CFBundleExecutable</key><string>TSApp</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>0.4.1</string>
+    <key>CFBundleVersion</key><string>10</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>LSUIElement</key><true/>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSDocumentsFolderUsageDescription</key><string>T&amp;S reads the Superwhisper result created by your current dictation so it can send that text to your paired Mac.</string>
+    <key>NSLocalNetworkUsageDescription</key><string>T&amp;S connects to your paired Mac over Tailscale to update its clipboard.</string>
+</dict></plist>
